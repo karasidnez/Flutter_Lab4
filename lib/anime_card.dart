@@ -51,7 +51,7 @@ class AnimeCard extends StatelessWidget {
         ],
 
       )
-    )
+    );
 
   }
   Widget _buildTitleRow(){
