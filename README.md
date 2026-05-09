@@ -1,17 +1,38 @@
-# anime_catalog
+# Лабораторная работа №4. Flutter: списки, модели данных и карточки
 
-A new Flutter project.
+**Фамилия, имя:** _[Тимонин И.В]_  
+**Группа:** _[ИСП-233]_  
+**Дата сдачи:** _[09.05.2026]_
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## Чему научились
 
-A few resources to get you started if this is your first Flutter project:
+- Создавать **модели данных** в Dart — классы, которые описывают структуру сложных объектов.
+- Использовать **ListView.builder** для эффективного отображения длинных прокручиваемых списков (виджеты создаются только для видимых элементов — аналог RecyclerView в Android).
+- Подключать **локальные assets** (изображения) и управлять ими через pubspec.yaml, указывая целую папку.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Скриншот финального приложения
+
+![Финальное приложение](img/step5_Timonin.png)
+
+---
+
+## Инструкция по запуску
+
+1. Убедитесь, что у вас установлен Flutter SDK (команда `flutter doctor` не показывает критических ошибок).
+2. Клонируйте репозиторий:
+   ```bash
+   git clone <URL_вашего_репозитория>
+   cd Flutter_Lab4
+   ```
+3. Установите зависимости:
+   ```bash
+   flutter pub get
+   ```
+4. Запустите приложение в браузере Chrome
+   ```bash
+   flutter run -d chrome
+   ```
