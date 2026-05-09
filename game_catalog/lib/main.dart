@@ -1,6 +1,6 @@
-import 'package:anime_catalog/anime_list.dart';
+import 'package:game_catalog/game_list.dart';
 import 'package:flutter/material.dart';
-import 'models/anime_data.dart';
+import 'models/game_data.dart';
 
 void main() {
   runApp(
@@ -12,14 +12,14 @@ void main() {
       home: Scaffold(
         appBar: AppBar(
           title: Text(
-            'Аниме-каталог',
+            'Игро-каталог',
             style: TextStyle(fontWeight: FontWeight.bold),
           ),
           backgroundColor: Colors.deepPurple,
           foregroundColor: Colors.white,
-          actions: [Text(animeList.length.toString())],
+          actions: [Text(gameList.length.toString())],
         ),
-        body: AnimeList(),
+        body: GameList(),
       ),
     ),
   );
